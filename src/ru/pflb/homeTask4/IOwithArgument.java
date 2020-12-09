@@ -23,7 +23,7 @@ public class IOwithArgument {
     public void printList(List<String> list) {
         System.out.print("Приложение выводит: ");
         for (int i = 0; i<list.size(); i++)
-            if(i%2 != 0){
+            if(i%2 == 0){
                 System.out.println(list.get(i));
             }
     }
